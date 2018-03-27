@@ -1,0 +1,66 @@
+p{
+    color:red;
+}
+
+body{
+    background:url("https://ak2.picdn.net/shutterstock/videos/739522/thumb/1.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin:0;
+    color:white;
+}
+
+.input-group-addon{
+    font-size:20px;
+}
+
+button{
+    color:red;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#result{
+    font-size: 34px;
+    color: green;
+    font-weight: bold;
+}
+
+#amount{
+    outline: none;
+}
+
+form{
+    margin-top:218px;
+    background:#ffc107a3;
+}
+
+.form-control,button{
+    cursor:pointer;
+    outline:none;
+}
+
+#forms_container{
+    width:100%;
+}
+
+#forms{
+    width:61%;
+    margin:auto;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+#forms_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 160px;
+}
+
+#amount::-webkit-inner-spin-button, #amount::-webkit-outer-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0 !important;
+    -moz-appearance:textfield !important;
+}
